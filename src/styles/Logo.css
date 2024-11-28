@@ -1,0 +1,14 @@
+.logo {
+    font-size: 3rem;
+    color: #4CAF50; /* Green color */
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+
+  .logo-image{
+    width: 45%;
+    height: 45%;
+  }
