@@ -130,10 +130,13 @@
     .logo {
       font-size: 2.5rem;
     }
+    .social-links{
+      gap: 35px;
+    }
   
-    /* .tagline {
-      font-size: 1.2rem;
-    } */
+    .tagline {
+      margin-bottom: 20px;
+    }
   
     .email-input {
       width: 100%;
