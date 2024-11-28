@@ -1,4 +1,4 @@
-import '../styles/LoadingScreen.css';
+import '../styles/Loadingscreen.css';
 import Logo from './Logo';
 
 const LoadingScreen = ({ isExiting }) => {
