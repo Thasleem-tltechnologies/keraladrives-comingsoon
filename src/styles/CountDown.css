@@ -1,9 +1,10 @@
 .countdown {
-    display: flex;
+    display: grid;
     justify-content: center;
     gap: 20px;
     margin-bottom: 30px;
     animation: fadeIn 1s ease-out 1s backwards;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
   
   .countdown-item {
@@ -15,7 +16,7 @@
   }
   
   .countdown-value {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 5px;
   }
@@ -29,9 +30,13 @@
   @media (max-width: 768px) {
     .countdown {
       flex-wrap: wrap;
+      padding: 20px;
     }
   
     .countdown-item {
-      min-width: 80px;
+      min-width: 80px;/
+    }
+    .countdown-item:nth-child(4){
+      grid-column: 2/3;
     }
   }
